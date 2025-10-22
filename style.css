@@ -52,7 +52,7 @@
         font-size: 16px;
     }
     
-    button {
+    #tombol {
         border: none;
         outline: none;
         padding: 10px 20px;
@@ -61,6 +61,11 @@
         font-size: 16px;
         cursor: pointer;
         border-radius: 40px;
+    }
+    
+    #tombol:hover {
+        background: #d4c2f5;
+        color: #232323;
     }
     
     #listContainer li {
